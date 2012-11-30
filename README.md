@@ -1,5 +1,5 @@
-android_device_lge_lu3700
-=========================
+android_device_pantech_ef44s
+============================
 
 CyanogenMod10 device tree for IM-A840S (SKY Vega S5) - Jellybean Branch
 
