@@ -3,6 +3,9 @@ android_device_pantech_ef44s
 
 CyanogenMod10 device tree for IM-A840S (SKY Vega S5) - Jellybean Branch
 
+Build requirements:
+* device/pantech/msm8960-common, branch jellybean
+
 Working:
 * RIL
 * Graphics
