@@ -49,13 +49,6 @@ PRODUCT_COPY_FILES += \
 
 # MSM8960 firmwares
 PRODUCT_COPY_FILES += \
-    device/pantech/ef44s/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
-    device/pantech/ef44s/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
-    device/pantech/ef44s/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
-    device/pantech/ef44s/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
-    device/pantech/ef44s/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
-    device/pantech/ef44s/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-    device/pantech/ef44s/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
     device/pantech/ef44s/firmware/cyttsp_8960_cdp.hex:/system/etc/firmware/cyttsp_8960_cdp.hex \
     device/pantech/ef44s/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
     device/pantech/ef44s/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
