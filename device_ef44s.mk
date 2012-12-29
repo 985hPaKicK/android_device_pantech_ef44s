@@ -147,7 +147,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/pantech/ef44s/keylayout/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
     device/pantech/ef44s/keylayout/qt602240_ts_input.kl:system/usr/keylayout/qt602240_ts_input.kl \
-    device/pantech/ef44s/keylayout/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl
+    device/pantech/ef44s/keylayout/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl
 
 # Input device config
 PRODUCT_COPY_FILES += \
