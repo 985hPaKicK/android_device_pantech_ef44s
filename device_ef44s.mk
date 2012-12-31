@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     device/pantech/ef44s/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
     device/pantech/ef44s/configs/camera-permission.sh:/system/etc/camera-permission.sh
 
-# MSM8960 firmwares
+# MSM8960 stock firmwares
 PRODUCT_COPY_FILES += \
     device/pantech/ef44s/firmware/cyttsp_8960_cdp.hex:/system/etc/firmware/cyttsp_8960_cdp.hex \
     device/pantech/ef44s/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
@@ -57,6 +57,31 @@ PRODUCT_COPY_FILES += \
     device/pantech/ef44s/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
     device/pantech/ef44s/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
     device/pantech/ef44s/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf
+
+# Jellybean Adreno firmware
+PRODUCT_COPY_FILES += \
+    device/pantech/ef44s/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
+    device/pantech/ef44s/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
+    device/pantech/ef44s/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
+    device/pantech/ef44s/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    device/pantech/ef44s/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
+    device/pantech/ef44s/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
+    device/pantech/ef44s/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw
+
+# Jellybean Adreno libs
+PRODUCT_COPY_FILES += \
+    device/pantech/ef44s/jb_libs/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
+    device/pantech/ef44s/jb_libs/lib/libC2D2.so:/system/lib/libC2D2.so \
+    device/pantech/ef44s/jb_libs/lib/libgsl.so:/system/lib/libgsl.so \
+    device/pantech/ef44s/jb_libs/lib/libOpenVG.so:/system/lib/libOpenVG.so \
+    device/pantech/ef44s/jb_libs/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    device/pantech/ef44s/jb_libs/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    device/pantech/ef44s/jb_libs/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    device/pantech/ef44s/jb_libs/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    device/pantech/ef44s/jb_libs/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    device/pantech/ef44s/jb_libs/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
+    device/pantech/ef44s/jb_libs/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
+
 
 # GPS config
 PRODUCT_COPY_FILES += device/common/gps/gps.conf_AS:system/etc/gps.conf
