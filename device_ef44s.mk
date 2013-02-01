@@ -44,8 +44,7 @@ PRODUCT_COPY_FILES += \
     device/pantech/ef44s/configs/init.qcom.modem_links.sh:/system/etc/init.qcom.modem_links.sh \
     device/pantech/ef44s/configs/init.qcom.post_boot.sh:/system/etc/init.qcom.post_boot.sh \
     device/pantech/ef44s/configs/init.qcom.sdio.sh:/system/etc/init.qcom.sdio.sh \
-    device/pantech/ef44s/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
-    device/pantech/ef44s/configs/camera-permission.sh:/system/etc/camera-permission.sh
+    device/pantech/ef44s/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh
 
 # MSM8960 stock firmwares
 PRODUCT_COPY_FILES += \
